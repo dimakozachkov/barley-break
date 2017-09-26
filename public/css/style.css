@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 447px;
+}
+
+.field-wrapper {
+    background: #baac9f;
+    border: 2px solid #baac9f;
+    border-radius: 3px;
+    box-sizing: unset!important;
+}
+
+.field-wrapper * {
+    box-sizing: unset!important;
+}
+
+.field-wrapper td {
+    background: #ede3d9;
+    border: 2px solid #baac9f;
+    border-radius: 3px;
+    color: #776e65;
+    cursor: pointer;
+    font-size: 48px;
+    padding: 25px 0;
+    text-align: center;
+    width: 108px;
+}
+
+.empty {
+    background: #d2c8be;
+}
